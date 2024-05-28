@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>SignUp form</title>
+        <style>
+            body{
+                background-image:url("https://www.hdwallpapers.in/download/blue_purple_shades_stripes_lines_4k_hd_abstract-3840x2160.jpg");
+                background-repeat:no-repeat;
+                background-size:100% 100%;
+            }
+        </style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div id="head">
+                <a href="#" class="navhead" target="_main">Home</a>
+                <a href="#" class="navhead" target="_main">About</a>
+                <a href="signup.html" class="navhead" target="_main">Portfolio</a>
+                <a href="#" class="navhead" target="_main">Features</a>
+                <a href="#" class="navhead" target="_main">Contact</a>
+                <i class="fa-solid fa-magnifying-glass" id="navicon" target="_main"></i>
+            </div>
+        </header>
+        <main id="start">
+            <div id="full">
+                <div>
+                    <p id="heading">Sign Up</p>
+                </div>
+                <div>
+                    <form>
+                        <table required class="details">
+                            <tr class="lead">
+                                <td>
+                                    FirstName:
+                                </td>
+                                <td>
+                                <input class="fname" type="text" placeholder="Enter your firstname" required>
+                                </td>
+                            </tr>
+                            <tr class="lead" required>
+                                <td>
+                                    LastName:
+                                </td>
+                                <td>
+                                <input class="lname" type="text" placeholder="Enter your lastname" required>
+                                </td>
+                            </tr>
+                            <tr class="lead">
+                                <td>
+                                    Password:
+                                </td>
+                                <td>
+                                <input class="pass" type="password" placeholder="Enter your password">
+                                </td>
+                            </tr>
+                            <tr class="lead">
+                                <td>
+                                    email:
+                                </td>
+                                <td required>
+                                <input class="email" type="email" placeholder="Enter your email">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+                <div class="lead">
+                    <span>Gender:</span>
+                    <input class="maleselect" type="radio" value="Male" name="Gender" required>Male
+                    <input class="femaleselect"type="radio" value="Female" name="Gender">Female
+                </div>
+                <div class="lead">
+                    <span>Qualification:</span>
+                    <select class="qualiselect" required>
+                        <option value="">--Select--</option>
+                        <option value="SSC">SSC</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Under Graduation">Under Graduation</option>
+                        <option value="Post Graduation">Post Graduation</option>
+                    </select>
+                </div>
+                <div>
+                    <input id="submit" type="submit" value="submit">
+                </div>
+            </div>
+            <div id="pos">
+                <div id="img"></div>
+            </div>
+        </main>
+        <footer>
+            <div class="foot">
+                <a href="#">@ 2023</a>
+                <a href="#">Terms and Conditions</a>
+                <a href="#">Privacy</a>
+            </div>
+        </footer>
+    </body>    
+</html>
